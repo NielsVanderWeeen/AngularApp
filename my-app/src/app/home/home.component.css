@@ -1,17 +1,26 @@
 div.scrollmenu {
-    background-color: #333;
-    overflow: auto;
+    overflow: scroll;
     white-space: nowrap;
+    border-radius: 25px;
+    border: 2px solid #cf1515;
+    padding: 20px;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+  ::-webkit-scrollbar{
+    width: 0;
+    background: transparent;
   }
   
-  div.scrollmenu a {
+  .item{
+    white-space: normal;
     display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
+    margin: 2px;
   }
-  
-  div.scrollmenu a:hover {
-    background-color: #777;
+
+  .full{
+      height: 1000px;
+      background-color: rgb(196, 196, 196);
   }
