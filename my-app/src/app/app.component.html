@@ -53,15 +53,32 @@
 </style>
 
 <!-- nav -->
-<nav class="navbar navbar-expand navbar-dark bg-dark">
-  <span class="navbar-brand mb-0 h1"><img src="https://wallpaperaccess.com/full/2180260.jpg" alt="logo" width="85"></span>
-  <div class="navbar-nav">
-    <a class="nav-item nav-link" routerLink="/">Home</a>
-    <a class="nav-item nav-link" routerLink="/teams">Teams</a>
-    <a class="nav-item nav-link" routerLink="/drivers">Drivers</a>
-    <a class="nav-item nav-link" routerLink="/cars">Cars</a>
-  </div>
-</nav>
+<mat-toolbar color="secondary">
+  <span class="fill-remaining-space">
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu" [overlapTrigger]="false">
+      <button routerLink="/" mat-menu-item>
+        <mat-icon>home</mat-icon>
+        <span>Home</span>
+      </button>
+      <button routerLink="/teams" mat-menu-item>
+        <mat-icon>people</mat-icon>
+        <span>Teams</span>
+      </button>
+      <button routerLink="/drivers" mat-menu-item>
+        <mat-icon>person</mat-icon>
+        <span>Drivers</span>
+      </button>
+      <button routerLink="/cars"mat-menu-item>
+        <mat-icon>directions_car</mat-icon>
+        <span>Cars</span>
+      </button>
+    </mat-menu>
+  </span>
+  <span class="fill-remaining-space">F1</span>
+</mat-toolbar>
 
 <router-outlet></router-outlet>
 

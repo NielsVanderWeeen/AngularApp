@@ -1,0 +1,10 @@
+<div>
+    <h1 class="title">F1 2021 Grid</h1>
+    <mat-card class="card" *ngFor="let driver of drivers">
+        <mat-card-title-group>
+          <mat-card-title>{{driver.number}}<br>{{driver.firstName}}<br>{{driver.lastName}}</mat-card-title>
+          <mat-card-subtitle>{{driver.team}}</mat-card-subtitle>
+          <img mat-card-xl-image src={{driver.img}} >
+        </mat-card-title-group>
+    </mat-card>
+</div>

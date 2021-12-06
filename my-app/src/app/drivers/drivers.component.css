@@ -1,0 +1,14 @@
+  .card{
+      width: 20%;
+      float: left;
+      margin-left: 50px;
+      margin-top: 15px;
+  }
+
+  .title{
+      font-size: 80px;
+      width: 100%;
+      text-align: center;
+      margin-top: 50px;
+  }
+

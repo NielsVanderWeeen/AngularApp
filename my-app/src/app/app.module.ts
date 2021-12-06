@@ -7,7 +7,10 @@ import { CarsComponent } from './cars';
 import { DriversComponent } from './drivers';
 import { HomeComponent } from './home';
 import { TeamsComponent } from './teams';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AppMaterialModule } from "./app.material-module";
+
 
 @NgModule({
   declarations: [
@@ -20,7 +23,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     appRoutingModule,
-    NgbModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    AppMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

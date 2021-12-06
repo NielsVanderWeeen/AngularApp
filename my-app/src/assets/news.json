@@ -1,0 +1,37 @@
+[
+    {
+       "title": "Lewis wins at Soã Paulo",
+       "subtitle": "Soã Paulo GP",
+       "text": "Lot's of bad luck came to Hamilton's way this race weekend in Brazil. Hamilton picked up a 5 place grid penalty for changing his engine but that wasn't everything. He got caught with an illegal rear wing wherefor he had to start the sprint race from P20. After all that he still managed to win the race.",
+       "img": "https://www.italy24news.com/content/uploads/2021/11/14/43851b43d5.jpg",
+       "alt": "Hamilton at Soã Paulo" 
+    },
+    {
+        "title": "Logan Sargeant to make F2 Debut",
+        "subtitle": "Williams Driver Academy",
+        "text": "Williams junior Logan Sargeant will make his Formula 2 debut with HWA RACELAB in Saudi Arabia, stepping up on the back of three seasons in Formula 3",
+        "img": "https://www.formula1.com/content/dam/fom-website/manual/Misc/2021manual/2021SaudiArabianGrandPrixManualAdds/Buildup/WilliamsF1_52669_HiRes.jpg",
+        "alt": "Logan Sargeant" 
+     },
+     {
+        "title": "Sir Frank Williams dies",
+        "subtitle": "Williams",
+        "text": "Sir Frank Williams, the longest serving Team Principal Formula 1 has ever seen, has died at the age of 79.",
+        "img": "https://cdn-1.motorsport.com/images/amp/YBea1Qz2/s1000/sir-frank-williams-team-princi.jpg",
+        "alt": "Sir Frank Williams" 
+     },
+     {
+        "title": "F1 renews deal with Circuit de Barcelona-Catalunya",
+        "subtitle": "Spanish GP",
+        "text": "Formula 1 has renewed it's deal with Circuit de Barcelona-Catalunya, in a move that will keep the Spanish Grand Prix at the track until 2026.",
+        "img": "https://destination.motogp.com/images/gps/1572448724__MG_2189-2.jpg",
+        "alt": "Spanish GP" 
+     },
+     {
+        "title": "Vettel and Schumacher team up in 2022 Race of Champions",
+        "subtitle": "Race of Champions",
+        "text": "Four-time world champion Sebastian Vettel and Haas rookie Mick Schumacher, son of Micheal Schumacher, will compete for Team Germany in the 2022 Race of Champions thats takes place in Sweden on February 5-6 2022",
+        "img": "https://cdn-1.motorsport.com/images/amp/0a9OGPP0/s6/gpr-sep-21-mick-and-seb-2-1.jpg",
+        "alt": "Vettel en Mick" 
+     }
+]
