@@ -6,6 +6,7 @@ import { ApiService } from '../api.service';
 styleUrls: ['./home.component.css']})
 export class HomeComponent implements OnInit{
     new: News[] = [];
+    reviews:string[] = [];
     public displayedColumns = ['title', 'subtitle', 'text', 'img', 'alt'];
     public dataSource = new MatTableDataSource<News>();
     constructor(private newApiService: ApiService){
@@ -19,12 +20,17 @@ export class HomeComponent implements OnInit{
     getNews(){
         this.newApiService.getNews()
         .subscribe((res)=>{
-            console.log(res);
             this.dataSource.data = res;
             this.new = res;
         })
     } 
+
+    getReview(val:string){
+        console.log(val);
+        this.reviews.push(val);
+    }
 }
+
 
 export interface News {
     title:string;

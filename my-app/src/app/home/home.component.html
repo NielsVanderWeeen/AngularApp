@@ -1,7 +1,7 @@
 <div class="full">
 <h4 class="title">Latest News</h4>
 <mat-divider>-</mat-divider>
-<div class="scrollmenu">
+<div class="scrollmenu  mat-elevation-z8">
   <div class="item" *ngFor="let new of new">
     <mat-card class="height">
       <mat-card-header>
@@ -21,15 +21,18 @@
 </div>
 <div class="CommentBox mat-elevation-z8">
   <h1 class="title">Reviews</h1>
+
   <form class="example-form">
-    <mat-form-field class="example-full-width">
-      <mat-label>Favorite food</mat-label>
-      <input matInput placeholder="Ex. Pizza" value="Sushi">
-    </mat-form-field>
-  
-    <mat-form-field class="example-full-width">
-      <mat-label>Leave a comment</mat-label>
-      <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+    <mat-form-field class="example-full-width" appearance="outline">
+      <input matInput maxlength="150" type="text" #review placeholder="Write a review about us...">
+      <button mat-button type="button" class="mg mat-elevation-z8" (click)="getReview(review.value)">Write</button>
     </mat-form-field>
   </form>
+    <div class="review mat-elevation-z8">
+      <h1 class="title">Alle Reviews</h1>
+      <div *ngFor="let review of reviews">
+        <h2 class="par">{{review}}</h2>
+        <mat-divider class="cl"></mat-divider>
+      </div>  
+  </div>
 </div>

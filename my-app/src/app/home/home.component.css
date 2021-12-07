@@ -57,12 +57,45 @@ hr{
 
 .CommentBox{
   width: 80%;
-  height: 350px;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgray;
+}
+
+
+.example-form {
+  min-width: 350px;
+  max-width: 800px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.color{
-  color: black;
+.example-full-width {
+  width: 100%;
 }
 
+.mg{
+  margin-top: 15px;
+}
+
+.review{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.par{
+  padding: 5px;
+  font-family: 'Bebas Neue', cursive;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.cl{
+ border-top-color: #cf1515;
+}
