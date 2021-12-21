@@ -24,8 +24,8 @@ import {MatDividerModule} from '@angular/material/divider'
         MatIconModule,
         MatMenuModule,
         MatButtonModule,
-       MatCardModule,
-       MatDividerModule
+        MatCardModule,
+        MatDividerModule
     ]
 })
 export class AppMaterialModule {}

@@ -13,10 +13,10 @@ export class ApiService {
   constructor(private httpClient: HttpClient) { }
 
   getDriversInformation(): Observable<Driver[]>{
-    return this.httpClient.get<Driver[]>(`${environment.baseURL}drivers.json`);
+    return this.httpClient.get<Array<Driver>>(`http://localhost:5012/Drivers`);
   }
 
   getNews(): Observable<News[]>{
-    return this.httpClient.get<News[]>(`${environment.baseURL}news.json`);
+    return this.httpClient.get<Array<News>>(`http://localhost:5012/News`);
   }
 }

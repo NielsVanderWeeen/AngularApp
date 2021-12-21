@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { appRoutingModule } from './app.routing';
 import { AppComponent } from './app.component';
-import { CarsComponent } from './cars';
 import { DriversComponent } from './drivers';
 import { HomeComponent } from './home';
 import { TeamsComponent } from './teams';
@@ -18,7 +17,6 @@ import { AppMaterialModule } from "./app.material-module";
     HomeComponent,
     DriversComponent,
     TeamsComponent,
-    CarsComponent
   ],
   imports: [
     BrowserModule,
