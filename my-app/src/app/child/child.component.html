@@ -1,0 +1,7 @@
+<div class="child">
+    <h2>Laatste WDC</h2>
+    <p>Laatst gekende WDC is: <strong>{{WDC}}</strong></p>
+    <label for="child-input">Add new WDC:</label>
+    <input type="text" id="child-input" #newWDC>
+    <button (click)="addNewWDC(newWDC.value)">Add</button>
+</div>

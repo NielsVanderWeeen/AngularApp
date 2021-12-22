@@ -79,4 +79,12 @@
 <router-outlet></router-outlet>
 
 
-
+<div class="parent">
+  <h2>Alle WDC</h2>
+  <ul>
+    <li *ngFor="let item of alleWDC">
+      {{item}}
+    </li>
+  </ul>
+  <app-child [WDC]="laatsteWDC" (newWDCEvent)="addWDC($event)"></app-child>
+</div>
